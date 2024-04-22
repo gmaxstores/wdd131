@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    max-width: 1600px;margin: 0 auto;
+}
+.section {display: grid;grid-template-columns: auto minmax(200px, 25%);height: 310px;}
+header {background-color: #333333;color: white;}
+nav {
+    display: flex;justify-content: space-around;background-color: #000000;padding: 2.5%;
+}
+a {text-decoration: none;color: white}
+.mainn {background-color: #cccccc;}
+.aside {background-color: white;}
+footer {background-color: #333333;color: white;text-align: center;height: 150px;}
+.headder {height: 70px;vertical-align: bottom;}
+p {padding-left: 2.5%;}
