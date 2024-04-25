@@ -9,7 +9,8 @@ main {display: grid;grid-template-columns: auto minmax(200px, 30%);}
 .card {border: 3px solid black;margin: 1em;border-radius: 10px;}
 .cardheading {margin: 0; background-color: blue;color: white;font-size: 2em;font-weight: bold;text-align: center;padding: 2.5%;}
 .devlink {color: blue;text-decoration: underline;}
-.devp {padding: 40% 0;}
+.devp {display: flex;flex-direction: column;height: 35%;}
+.devp a {text-decoration: underline;color: blue;}
 div {display: grid;grid-template-columns: 1fr 1fr;padding: 2.5%;align-items: center;column-gap: 2.5%;justify-items: center;}
 .countryheading {text-align: center;font-size: 1.5em;font-weight: bold;text-decoration: underline black;}
 figure {float: left;text-align: center;margin: 0;padding: 2.5%;padding-top: 0;}
