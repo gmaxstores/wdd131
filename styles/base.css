@@ -8,8 +8,8 @@ a {text-decoration: none;font-size: large;font-weight: bold;padding: 2.5%;color:
 main {display: grid;grid-template-columns: auto minmax(200px, 30%);}
 .card {border: 3px solid black;margin: 1em;border-radius: 10px;}
 .cardheading {margin: 0; background-color: blue;color: white;font-size: 2em;font-weight: bold;text-align: center;padding: 2.5%;}
-.devlink {color: black;}
-.devp {display: flex;height: 85%;flex-direction: column;justify-content: center;}
+.devlink {color: blue;text-decoration: underline;}
+.devp {padding: 40% 0;}
 div {display: grid;grid-template-columns: 1fr 1fr;padding: 2.5%;align-items: center;column-gap: 2.5%;justify-items: center;}
 .countryheading {text-align: center;font-size: 1.5em;font-weight: bold;text-decoration: underline black;}
 figure {float: left;text-align: center;margin: 0;padding: 2.5%;padding-top: 0;}
@@ -19,8 +19,10 @@ footer p {font-size: 1.5em;padding-bottom: 0;margin-bottom: 0;}
 .last {color: yellow;font-size: 0.8em;font-family: Oswald, Arial, Helvetica, sans-serif;}
 #lastModified {margin: 0;padding-bottom: 1.5%;}
 .pic {width: 100%;}
+li {padding: 1.5%;}
 
 @media screen and (max-width: 900px) {
     main {display: block;height: 100%;}
     nav, footer {flex-direction: column;}
+    .devp {padding: 0;}
 }
