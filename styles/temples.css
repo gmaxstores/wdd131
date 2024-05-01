@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {margin: 0 auto;padding: 0;font-family: Roboto, sans-serif, Arial, Helvetica;}
+#menu {font-size: 1.5rem;border: 0;background: none;color: white;position: absolute;top: 1rem;right: 1rem;}
+#menu:hover {border: 3px solid black;margin-top: 4px;}
+#menu::before {content: "☰";}
+#menu.show::before {content: "X";}
+.show a {display: block;}
+header {background-color: purple;padding-left: 1rem;padding-top: 1rem;}
+nav {display: flex;justify-content: space-around;flex-direction: column;font-size: 1.5rem;margin: 1rem auto;max-width: 700px;}
+nav a {text-decoration: none;color: white;display: none;text-align: center;padding: 5px;}
+nav a:hover {background-color: #000;}
+main {max-width: 700px;margin: 1rem auto;}
+h2 {text-align: center;}
+section {margin: 1rem auto;display: grid;grid-template-columns: 1fr;}
+figure {padding: 1rem;}
+figcaption {text-align: center;font-size: 1.5rem;}
+h1 {color: white;}
+figure {width: auto;height: auto;}
+img {width: 100%;}
+footer {background-color: purple;color: white; text-align: center;}
+footer p {font-size: 1.5em;padding-bottom: 0;margin-bottom: 0;}

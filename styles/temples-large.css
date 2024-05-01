@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+    #menu {display: none;}
+    header {display: flex;}
+    h1 {margin: 0;}
+    nav {flex-direction: row;margin-top: 0;max-width: none;margin-right: 1rem;}
+    nav a {display: block;flex: 1 1 100%;padding-left: 3rem;padding-right: 3rem;}
+    main {display: block;max-width: none;margin: 0;}
+    section {display: grid;grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));}
+    h2 {padding-top: 1rem;}
+}
