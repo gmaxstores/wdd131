@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria</title>
+    <meta name="author" content="Maxwell Balla Nvani">
+    <meta name="description" content="This site aims to provide basic geographic information about Nigeria including weather forecast">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+    <main>
+        <div class="hero-img">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/nigeria-large.webp">
+                <source media="(min-width: 500px)" srcset="images/nigeria-medium.webp">
+                <img src="images/nigeria-small.webp" alt="picture of a girl paddling a canoe on a river located in Nigeria" width="482" height="241">
+            </picture>
+        </div>
+        <div class="datatable">
+            <h2>Data</h2>
+            <div class="row">
+                <div class="col-one">Area:</div>
+                <div class="col">923,769 sq km</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Population:</div>
+                <div class="col">230,000,000</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Capital:</div>
+                <div class="col">Abuja</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Languages:</div>
+                <div class="col">English, Hausa, Igbo, Yoruba</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Currency:</div>
+                <div class="col">Naira</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Timzone:</div>
+                <div class="col">UTC+1</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Calling Code:</div>
+                <div class="col">+234</div>
+            </div>
+            <div class="row">
+                <div class="col-one">Internet TLD:</div>
+                <div class="col">.ng</div>
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="weathertable">
+            <h2 class="weatherheading">Weather</h2>
+            <img class="weather-img" src="images/weather-symbol.svg" alt="Weather symbol" width="200" height="100">
+            <div class="row">
+                <div class="col-one">Temperature:</div>
+                <div class="col-temp"></div>
+            </div>
+            <div class="row">
+                <div class="col-one">Conditions:</div>
+                <div class="col-conditions"></div>
+            </div>
+            <div class="row">
+                <div class="col-one">Wind:</div>
+                <div class="col-wind"></div>
+            </div>
+            <div class="row">
+                <div class="col-one">Wind Chill:</div>
+                <div class="col-windchill"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> &#127801; Maxwell Balla Nvani &#127801; Nigeria
+        </p>
+        <p id="lastModified">
+            
+        </p>
+    </footer>
+</body>
+</html>
