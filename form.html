@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <meta name="author" content="Maxwell Balla Nvani">
+    <meta name="description" content="The review page aims to provide a form for users to fill in order to drop a review about a product on the site">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <body>
+        
+        <form action="review.html" method="get">
+            <p>All required (*) fields must be filled</p>
+            <label class="select">
+                Product Name <span class="required">*</span>
+                <select name="product" id="product" required>
+                    <option disabled selected>Please select a product</option>
+                </select>
+            </label>
+            <div>Overall Rating <span class="required">*</span></div>
+            <label id="ratin">
+                *<input type="radio" name="rating" id="rating1" value="Bad" required>
+            </label>
+            <label id="ratin">
+                **<input type="radio" name="rating" id="rating2" value="Poor" required>
+            </label>
+            <label id="ratin">
+                ***<input type="radio" name="rating" id="rating3" value="Average" required>
+            </label>
+            <label id="ratin">
+                ****<input type="radio" name="rating" id="rating4" value="Good" required>
+            </label>
+            <label id="ratin">
+                *****<input type="radio" name="rating" id="rating5" value="Excellent" required>
+            </label>
+            <label>
+                Date of Installation <span class="required">*</span>
+                <input type="date" name="installationDate" id="installationDate" required>
+            </label>
+            <div>Which feautures did you find useful in the product?<br><i>(Check all that apllies)</i></div>
+            <label class="check">
+                <input type="checkbox" name="durable" id="durable" value="Durable">Durability
+            </label>
+            <label class="check">
+                <input type="checkbox" name="easy" id="easy" value="Easy">Ease of use
+            </label>
+            <label class="check">
+                <input type="checkbox" name="performance" id="performance" value="Good Performance">Performance
+            </label>
+            <label class="check">
+                <input type="checkbox" name="design" id="design" value="Good Design">Design
+            </label>
+            <label class="written">
+                Written Review <span class="optional">(Optional)</span>
+                <textarea name="user_review" id="user_review" autofocus></textarea>
+            </label>
+            <label class="written">
+                Your Name <span class="optional">(Optional)</span>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+            </label>
+            <input type="submit" value="Post Review">
+        </form>
+    </body>
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> &#127801; Maxwell Balla Nvani &#127801; Nigeria
+        </p>
+        <p id="lastModified">
+            
+        </p>
+    </footer>
+</body>
+</html>

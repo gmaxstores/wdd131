@@ -1,0 +1,24 @@
+* {margin: 0;padding: 0;}
+form {margin: 0 auto;margin-top: 1rem;margin-bottom: 1rem; max-width: 400px;width: 100%;background-color: #d5cdd5;padding-left: 1.5rem;padding-right: 1.8rem;border-radius: 5px;padding-bottom: 1rem;font-size: 20px;}
+form label {display: block;padding-bottom: 1rem;}
+form input[type='text'] {display: block;width: 100%;font-size: 20px;}
+form input[type='radio'] {display: block;padding-bottom: 2.5rem;}
+#rating1, #rating2, #rating3, #rating4, #rating5 {margin: 0 auto;}
+#ratin {max-width: 10%; text-align: center;padding-top: 0.5rem;}
+form select, form input[type='date'] {display: block;font-size: 20px;}
+header {background-color: #2e0b2b;color: white;padding: 1rem;}
+div {margin-top: 10px;}
+.check {padding: 2px;display: flex;align-items: center;}
+#durable, #easy, #performance, #design {margin-right: 5px;}
+.select {padding-top: 1rem;}
+.written {padding-top: 1rem;}
+form input[type='submit'] {display: block;width: 100%;padding: 1rem;font-size: 20px;}
+#name {padding-bottom: 1.5rem;}
+form input[type='checkbox'] {width: 30px;height: 30px;}
+form input[type='submit']:hover {background-color: blue;color: white;}
+.required {color: black;}
+.optional {color: #011638}
+textarea {display: block;width: 100%;padding-bottom: 5.5rem;font-size: 20px;}
+footer {background-color: purple;color: white; text-align: center;padding: 1rem;}
+footer p {font-size: 1.5rem;}
+form p {padding-top: 1rem;font-size: smaller;}
