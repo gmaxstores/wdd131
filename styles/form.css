@@ -4,7 +4,7 @@ form label {display: block;padding-bottom: 1rem;}
 form input[type='text'] {display: block;width: 100%;font-size: 20px;}
 form input[type='radio'] {display: block;padding-bottom: 2.5rem;}
 #rating1, #rating2, #rating3, #rating4, #rating5 {margin: 0 auto;}
-#ratin {max-width: 10%; text-align: center;padding-top: 0.5rem;}
+#ratin1, #ratin2, #ratin3, #ratin4, #ratin5 {max-width: 10%; text-align: center;padding-top: 0.5rem;}
 form select, form input[type='date'] {display: block;font-size: 20px;}
 header {background-color: #2e0b2b;color: white;padding: 1rem;}
 div {margin-top: 10px;}
