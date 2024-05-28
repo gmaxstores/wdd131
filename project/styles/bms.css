@@ -51,6 +51,7 @@ footer {display: grid;grid-template-columns: 1fr 1fr;background-color: var(--mai
 .non-social {margin-left: 1rem;}
 
 
+
 /**ABOUT**/
 .left, .right {display: none;}
 .about-p, .about-section-three {font-size: 1.5rem;}
@@ -62,6 +63,7 @@ figcaption {text-align: center;}
 .about-motto {font-size: 1.5rem;font-weight: bolder;text-align: center;padding-bottom: 1rem;}
 .about-img {max-width: 200px;margin: 0 auto;}
 .about-img img {width: 100%;height: auto;}
+figure p, figure h3, figure h2 {text-align: center;}
 .first {
   grid-column: 2/3;
   position: relative;
