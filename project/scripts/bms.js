@@ -165,6 +165,6 @@ const states = [
 
 states.forEach(state => {
     let node = document.createElement("option");
-    node.textContent = state.name
+    node.textContent = state.name;
     stateOptions.appendChild(node);
 });
