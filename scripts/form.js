@@ -39,6 +39,6 @@ const products = [
 
 products.forEach(product => {
     let node = document.createElement("option");
-    node.textContent = product.name
+    node.textContent = product.name;
     productOptions.appendChild(node);
 });
