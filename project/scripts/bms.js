@@ -162,9 +162,18 @@ const states = [
     }
 ];
 
-
-states.forEach(state => {
+if (stateOptions) {
+    states.forEach(state => {
+        let node = document.createElement("option");
+        node.textContent = state.name;
+        stateOptions.appendChild(node);
+    });
+} else {
+    console.error("stateOptions is null");
+};
+/*states.forEach(state => {
     let node = document.createElement("option");
     node.textContent = state.name;
     stateOptions.appendChild(node);
 });
+*/
